@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1731058964" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/and2.dcp">
-  <File Type="VDS-TIMING-PB" Name="gate2_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="gate2_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="gate2.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="gate2_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="gate2_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="gate2_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="gate2.vds"/>
-  <File Type="REPORTS-TCL" Name="gate2_reports.tcl"/>
-  <File Type="PA-TCL" Name="gate2.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1731332959" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/and2.dcp">
+  <File Type="PA-TCL" Name="add2b.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="add2b_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="add2b_reports.tcl"/>
+  <File Type="RDS-RDS" Name="add2b.vds"/>
+  <File Type="RDS-UTIL" Name="add2b_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="add2b_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="add2b.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="add2b_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="add2b_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/gate2.v">
+    <File Path="$PSRCDIR/sources_1/new/add2b.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/and2.v">
+    <File Path="$PSRCDIR/sources_1/new/arith8.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -28,7 +28,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="gate2"/>
+      <Option Name="TopModule" Val="add2b"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -52,9 +52,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

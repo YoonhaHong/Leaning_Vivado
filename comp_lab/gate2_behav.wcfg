@@ -3,53 +3,21 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="gate2_behav.wdb" id="1">
+      <db_ref path="gate4_behav.wdb" id="1">
          <top_modules>
-            <top_module name="gate2" />
+            <top_module name="gate4" />
             <top_module name="glbl" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="5,000.001 ns"></ZoomEndTime>
-      <Cursor1Time time="0.000 ns"></Cursor1Time>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="6.862247 us"></ZoomEndTime>
+      <Cursor1Time time="1.000000 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="276"></NameColumnWidth>
-      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="8" />
-   <wvobject type="logic" fp_name="/gate2/a">
-      <obj_property name="ElementShortName">a</obj_property>
-      <obj_property name="ObjectShortName">a</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/gate2/b">
-      <obj_property name="ElementShortName">b</obj_property>
-      <obj_property name="ObjectShortName">b</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/gate2/y_not">
-      <obj_property name="ElementShortName">y_not</obj_property>
-      <obj_property name="ObjectShortName">y_not</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/gate2/y_and">
-      <obj_property name="ElementShortName">y_and</obj_property>
-      <obj_property name="ObjectShortName">y_and</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/gate2/y_or">
-      <obj_property name="ElementShortName">y_or</obj_property>
-      <obj_property name="ObjectShortName">y_or</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/gate2/y_xor">
-      <obj_property name="ElementShortName">y_xor</obj_property>
-      <obj_property name="ObjectShortName">y_xor</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/gate2/y_nand">
-      <obj_property name="ElementShortName">y_nand</obj_property>
-      <obj_property name="ObjectShortName">y_nand</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/gate2/y_nor">
-      <obj_property name="ElementShortName">y_nor</obj_property>
-      <obj_property name="ObjectShortName">y_nor</obj_property>
-   </wvobject>
+   <WVObjectSize size="0" />
 </wave_config>
