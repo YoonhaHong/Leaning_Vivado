@@ -1,7 +1,7 @@
-Running: xsim.dir/add2b_behav/xsimk.exe -simmode gui -wdb add2b_behav.wdb -simrunnum 0 -socket 5931
+Running: xsim.dir/add2b_behav/xsimk.exe -simmode gui -wdb add2b_behav.wdb -simrunnum 0 -socket 2148
 Design successfully loaded
-Design Loading Memory Usage: 8284 KB (Peak: 8284 KB)
-Design Loading CPU Usage: 62 ms
+Design Loading Memory Usage: 8036 KB (Peak: 8036 KB)
+Design Loading CPU Usage: 61 ms
 Simulation completed
-Simulation Memory Usage: 8812 KB (Peak: 8812 KB)
-Simulation CPU Usage: 62 ms
+Simulation Memory Usage: 8556 KB (Peak: 8556 KB)
+Simulation CPU Usage: 61 ms

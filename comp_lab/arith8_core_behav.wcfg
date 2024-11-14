@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="arith8_core_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="arith8_core" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.684057 us"></ZoomStartTime>
+      <ZoomEndTime time="4.663189 us"></ZoomEndTime>
+      <Cursor1Time time="2.908083 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="240"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/arith8_core/din_a" type="array">
+      <obj_property name="ElementShortName">din_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_a[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arith8_core/din_b" type="array">
+      <obj_property name="ElementShortName">din_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_b[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arith8_core/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arith8_core/y_out" type="array">
+      <obj_property name="ElementShortName">y_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">y_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arith8_core/y_a" type="array">
+      <obj_property name="ElementShortName">y_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">y_a[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arith8_core/y_s" type="array">
+      <obj_property name="ElementShortName">y_s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">y_s[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arith8_core/y_m" type="array">
+      <obj_property name="ElementShortName">y_m[7:0]</obj_property>
+      <obj_property name="ObjectShortName">y_m[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arith8_core/y_d" type="array">
+      <obj_property name="ElementShortName">y_d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">y_d[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

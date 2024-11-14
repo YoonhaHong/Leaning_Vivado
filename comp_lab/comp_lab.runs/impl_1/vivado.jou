@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon Nov 11 22:51:31 2024
-# Process ID: 27400
+# Start of session at: Wed Nov 13 11:46:12 2024
+# Process ID: 24548
 # Current directory: D:/Learning_Vivado/comp_lab/comp_lab.runs/impl_1
-# Command line: vivado.exe -log add2b.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source add2b.tcl -notrace
-# Log file: D:/Learning_Vivado/comp_lab/comp_lab.runs/impl_1/add2b.vdi
+# Command line: vivado.exe -log sub2b.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sub2b.tcl -notrace
+# Log file: D:/Learning_Vivado/comp_lab/comp_lab.runs/impl_1/sub2b.vdi
 # Journal file: D:/Learning_Vivado/comp_lab/comp_lab.runs/impl_1\vivado.jou
 # Running On: DESKTOP-9R0FEIM, OS: Windows, CPU Frequency: 3500 MHz, CPU Physical cores: 12, Host memory: 34240 MB
 #-----------------------------------------------------------
-source add2b.tcl -notrace
+source sub2b.tcl -notrace
