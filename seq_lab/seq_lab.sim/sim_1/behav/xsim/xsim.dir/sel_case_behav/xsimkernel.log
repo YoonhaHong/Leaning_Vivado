@@ -1,0 +1,4 @@
+Running: xsim.dir/sel_case_behav/xsimk -simmode gui -wdb sel_case_behav.wdb -simrunnum 0 -socket 54485
+Design successfully loaded
+Design Loading Memory Usage: 23544 KB (Peak: 24128 KB)
+Design Loading CPU Usage: 10 ms

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cnt_priority_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cnt_priority" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,400.001 ns"></ZoomEndTime>
+      <Cursor1Time time="3,400.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/cnt_priority/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cnt_priority/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cnt_priority/clr">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cnt_priority/cen">
+      <obj_property name="ElementShortName">cen</obj_property>
+      <obj_property name="ObjectShortName">cen</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cnt_priority/ld">
+      <obj_property name="ElementShortName">ld</obj_property>
+      <obj_property name="ObjectShortName">ld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cnt_priority/up_dn">
+      <obj_property name="ElementShortName">up_dn</obj_property>
+      <obj_property name="ObjectShortName">up_dn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cnt_priority/ldv">
+      <obj_property name="ElementShortName">ldv[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ldv[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cnt_priority/qout">
+      <obj_property name="ElementShortName">qout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">qout[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
