@@ -12,20 +12,22 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000000 us"></ZoomStartTime>
-      <ZoomEndTime time="5.578223 us"></ZoomEndTime>
-      <Cursor1Time time="1.000000 us"></Cursor1Time>
+      <ZoomEndTime time="16.000001 us"></ZoomEndTime>
+      <Cursor1Time time="16.000000 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="234"></NameColumnWidth>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
       <ValueColumnWidth column_width="90"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="2" />
    <wvobject fp_name="/hex2seg/din" type="array">
       <obj_property name="ElementShortName">din[3:0]</obj_property>
       <obj_property name="ObjectShortName">din[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/hex2seg/seg_d" type="array">
       <obj_property name="ElementShortName">seg_d[7:0]</obj_property>
       <obj_property name="ObjectShortName">seg_d[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
 </wave_config>
