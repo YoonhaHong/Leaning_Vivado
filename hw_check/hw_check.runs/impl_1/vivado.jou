@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Nov 18 20:00:55 2024
+# Process ID: 3450
+# Current directory: /home/yoonha/Documents/Learning_Vivado/hw_check/hw_check.runs/impl_1
+# Command line: vivado -log button_and_led.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source button_and_led.tcl -notrace
+# Log file: /home/yoonha/Documents/Learning_Vivado/hw_check/hw_check.runs/impl_1/button_and_led.vdi
+# Journal file: /home/yoonha/Documents/Learning_Vivado/hw_check/hw_check.runs/impl_1/vivado.jou
+# Running On: yoonha-home, OS: Linux, CPU Frequency: 3558.517 MHz, CPU Physical cores: 12, Host memory: 33527 MB
+#-----------------------------------------------------------
+source button_and_led.tcl -notrace
